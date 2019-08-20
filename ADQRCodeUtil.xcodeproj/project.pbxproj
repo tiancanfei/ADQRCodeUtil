@@ -22,6 +22,7 @@
 		70C743BE230B898C004B2452 /* ADCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743BC230B898C004B2452 /* ADCreateViewController.m */; };
 		70C743BF230B898C004B2452 /* ADCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C743BD230B898C004B2452 /* ADCreateViewController.xib */; };
 		70C743CB230B92DD004B2452 /* ADScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C743CA230B92DD004B2452 /* ADScanViewController.xib */; };
+		70C743CE230B9FC0004B2452 /* ADQRCodeDetectorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743CD230B9FC0004B2452 /* ADQRCodeDetectorUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		70C743BC230B898C004B2452 /* ADCreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCreateViewController.m; sourceTree = "<group>"; };
 		70C743BD230B898C004B2452 /* ADCreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADCreateViewController.xib; sourceTree = "<group>"; };
 		70C743CA230B92DD004B2452 /* ADScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADScanViewController.xib; sourceTree = "<group>"; };
+		70C743CC230B9FBF004B2452 /* ADQRCodeDetectorUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADQRCodeDetectorUtil.h; sourceTree = "<group>"; };
+		70C743CD230B9FC0004B2452 /* ADQRCodeDetectorUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADQRCodeDetectorUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,8 @@
 				70C743AE230B811E004B2452 /* ADQRCodeView.m */,
 				70C743B3230B8442004B2452 /* ADQRCodeCreateUtil.h */,
 				70C743B4230B8442004B2452 /* ADQRCodeCreateUtil.m */,
+				70C743CC230B9FBF004B2452 /* ADQRCodeDetectorUtil.h */,
+				70C743CD230B9FC0004B2452 /* ADQRCodeDetectorUtil.m */,
 				70C743B6230B8788004B2452 /* ADScanViewController.h */,
 				70C743B7230B8788004B2452 /* ADScanViewController.m */,
 				70C743CA230B92DD004B2452 /* ADScanViewController.xib */,
@@ -307,6 +312,7 @@
 				70C743B9230B8788004B2452 /* ADScanViewController.m in Sources */,
 				706E4EE3230B8086005FCCF0 /* ViewController.m in Sources */,
 				70C743BE230B898C004B2452 /* ADCreateViewController.m in Sources */,
+				70C743CE230B9FC0004B2452 /* ADQRCodeDetectorUtil.m in Sources */,
 				706E4EEE230B8087005FCCF0 /* main.m in Sources */,
 				70500231230B80CB00AC4DF7 /* ADQRCodeUtil.m in Sources */,
 				70C743AF230B811E004B2452 /* ADQRCodeView.m in Sources */,
@@ -484,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YF782B2P9V;
 				INFOPLIST_FILE = ADQRCodeUtil/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -502,7 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YF782B2P9V;
 				INFOPLIST_FILE = ADQRCodeUtil/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

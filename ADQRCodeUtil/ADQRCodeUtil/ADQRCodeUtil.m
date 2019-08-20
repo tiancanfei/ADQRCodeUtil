@@ -10,6 +10,10 @@
 
 @implementation ADQRCodeUtil
 
++ (void)detectorWithImage:(UIImage *)image complete:(void(^ _Nullable )(NSString  * _Nullable codeString, NSString * _Nullable errorMsg))complete {
+    [ADQRCodeDetectorUtil detectorWithImage:image complete:complete];
+}
+
 + (UIImage *)createQRCodeWithString:(NSString *)string size:(CGFloat)size {
     return [ADQRCodeCreateUtil createQRCodeWithString:string size:size];
 }

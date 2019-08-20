@@ -9,10 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "ADQRCodeView.h"
 #import "ADQRCodeCreateUtil.h"
+#import "ADQRCodeDetectorUtil.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ADQRCodeUtil : NSObject
+
+/// 识别图片中的二维码
++ (void)detectorWithImage:(UIImage *)image complete:(void(^ _Nullable )(NSString  * _Nullable codeString, NSString * _Nullable errorMsg))complete;
 
 /// 生成二维码
 + (UIImage *)createQRCodeWithString:(NSString *)string size:(CGFloat)size;
