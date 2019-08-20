@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70500231230B80CB00AC4DF7 /* ADQRCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 70500230230B80CB00AC4DF7 /* ADQRCodeUtil.m */; };
 		706E4EE0230B8086005FCCF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E4EDF230B8086005FCCF0 /* AppDelegate.m */; };
 		706E4EE3230B8086005FCCF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E4EE2230B8086005FCCF0 /* ViewController.m */; };
 		706E4EE6230B8086005FCCF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706E4EE4230B8086005FCCF0 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		706E4EEE230B8087005FCCF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E4EED230B8087005FCCF0 /* main.m */; };
 		706E4EF8230B8087005FCCF0 /* ADQRCodeUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E4EF7230B8087005FCCF0 /* ADQRCodeUtilTests.m */; };
 		706E4F03230B8087005FCCF0 /* ADQRCodeUtilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 706E4F02230B8087005FCCF0 /* ADQRCodeUtilUITests.m */; };
+		70C743AF230B811E004B2452 /* ADQRCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743AE230B811E004B2452 /* ADQRCodeView.m */; };
+		70C743B5230B8442004B2452 /* ADQRCodeCreateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743B4230B8442004B2452 /* ADQRCodeCreateUtil.m */; };
+		70C743B9230B8788004B2452 /* ADScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743B7230B8788004B2452 /* ADScanViewController.m */; };
+		70C743BE230B898C004B2452 /* ADCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C743BC230B898C004B2452 /* ADCreateViewController.m */; };
+		70C743BF230B898C004B2452 /* ADCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C743BD230B898C004B2452 /* ADCreateViewController.xib */; };
+		70C743CB230B92DD004B2452 /* ADScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C743CA230B92DD004B2452 /* ADScanViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7050022F230B80CB00AC4DF7 /* ADQRCodeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADQRCodeUtil.h; sourceTree = "<group>"; };
+		70500230230B80CB00AC4DF7 /* ADQRCodeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADQRCodeUtil.m; sourceTree = "<group>"; };
 		706E4EDB230B8086005FCCF0 /* ADQRCodeUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADQRCodeUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706E4EDE230B8086005FCCF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		706E4EDF230B8086005FCCF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		706E4EFE230B8087005FCCF0 /* ADQRCodeUtilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADQRCodeUtilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		706E4F02230B8087005FCCF0 /* ADQRCodeUtilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADQRCodeUtilUITests.m; sourceTree = "<group>"; };
 		706E4F04230B8087005FCCF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C743AD230B811E004B2452 /* ADQRCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADQRCodeView.h; sourceTree = "<group>"; };
+		70C743AE230B811E004B2452 /* ADQRCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADQRCodeView.m; sourceTree = "<group>"; };
+		70C743B3230B8442004B2452 /* ADQRCodeCreateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADQRCodeCreateUtil.h; sourceTree = "<group>"; };
+		70C743B4230B8442004B2452 /* ADQRCodeCreateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADQRCodeCreateUtil.m; sourceTree = "<group>"; };
+		70C743B6230B8788004B2452 /* ADScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADScanViewController.h; sourceTree = "<group>"; };
+		70C743B7230B8788004B2452 /* ADScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADScanViewController.m; sourceTree = "<group>"; };
+		70C743BB230B898C004B2452 /* ADCreateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADCreateViewController.h; sourceTree = "<group>"; };
+		70C743BC230B898C004B2452 /* ADCreateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADCreateViewController.m; sourceTree = "<group>"; };
+		70C743BD230B898C004B2452 /* ADCreateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADCreateViewController.xib; sourceTree = "<group>"; };
+		70C743CA230B92DD004B2452 /* ADScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADScanViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +124,10 @@
 				706E4EDF230B8086005FCCF0 /* AppDelegate.m */,
 				706E4EE1230B8086005FCCF0 /* ViewController.h */,
 				706E4EE2230B8086005FCCF0 /* ViewController.m */,
+				70C743BB230B898C004B2452 /* ADCreateViewController.h */,
+				70C743BC230B898C004B2452 /* ADCreateViewController.m */,
+				70C743BD230B898C004B2452 /* ADCreateViewController.xib */,
+				706E4F10230B809E005FCCF0 /* ADQRCodeUtil */,
 				706E4EE4230B8086005FCCF0 /* Main.storyboard */,
 				706E4EE7230B8087005FCCF0 /* Assets.xcassets */,
 				706E4EE9230B8087005FCCF0 /* LaunchScreen.storyboard */,
@@ -130,6 +153,22 @@
 				706E4F04230B8087005FCCF0 /* Info.plist */,
 			);
 			path = ADQRCodeUtilUITests;
+			sourceTree = "<group>";
+		};
+		706E4F10230B809E005FCCF0 /* ADQRCodeUtil */ = {
+			isa = PBXGroup;
+			children = (
+				7050022F230B80CB00AC4DF7 /* ADQRCodeUtil.h */,
+				70500230230B80CB00AC4DF7 /* ADQRCodeUtil.m */,
+				70C743AD230B811E004B2452 /* ADQRCodeView.h */,
+				70C743AE230B811E004B2452 /* ADQRCodeView.m */,
+				70C743B3230B8442004B2452 /* ADQRCodeCreateUtil.h */,
+				70C743B4230B8442004B2452 /* ADQRCodeCreateUtil.m */,
+				70C743B6230B8788004B2452 /* ADScanViewController.h */,
+				70C743B7230B8788004B2452 /* ADScanViewController.m */,
+				70C743CA230B92DD004B2452 /* ADScanViewController.xib */,
+			);
+			path = ADQRCodeUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				706E4EEB230B8087005FCCF0 /* LaunchScreen.storyboard in Resources */,
+				70C743BF230B898C004B2452 /* ADCreateViewController.xib in Resources */,
 				706E4EE8230B8087005FCCF0 /* Assets.xcassets in Resources */,
 				706E4EE6230B8086005FCCF0 /* Main.storyboard in Resources */,
+				70C743CB230B92DD004B2452 /* ADScanViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C743B5230B8442004B2452 /* ADQRCodeCreateUtil.m in Sources */,
+				70C743B9230B8788004B2452 /* ADScanViewController.m in Sources */,
 				706E4EE3230B8086005FCCF0 /* ViewController.m in Sources */,
+				70C743BE230B898C004B2452 /* ADCreateViewController.m in Sources */,
 				706E4EEE230B8087005FCCF0 /* main.m in Sources */,
+				70500231230B80CB00AC4DF7 /* ADQRCodeUtil.m in Sources */,
+				70C743AF230B811E004B2452 /* ADQRCodeView.m in Sources */,
 				706E4EE0230B8086005FCCF0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +482,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF782B2P9V;
 				INFOPLIST_FILE = ADQRCodeUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +500,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YF782B2P9V;
 				INFOPLIST_FILE = ADQRCodeUtil/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

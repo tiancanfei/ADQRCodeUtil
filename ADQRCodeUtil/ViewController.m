@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ADScanViewController.h"
+#import "ADCreateViewController.h"
 
 @interface ViewController ()
 
@@ -19,5 +21,14 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)jump2Scan {
+    ADScanViewController *scanViewVC = [[ADScanViewController alloc] init];
+    [self.navigationController pushViewController:scanViewVC animated:YES];
+}
+
+- (IBAction)jump2Create {
+    ADCreateViewController *scanViewVC = [[ADCreateViewController alloc] init];
+    [self.navigationController pushViewController:scanViewVC animated:YES];
+}
 
 @end
